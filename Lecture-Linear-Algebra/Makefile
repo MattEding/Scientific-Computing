@@ -2,7 +2,7 @@
 
 CPP = g++
 CPPFLAGS = -std=c++11 -O2
-BLAS = -I${BLAS_INC} -L${BLAS_LIB} -lopenblas
+BLAS = -I ${BLAS_INC} -L ${BLAS_LIB} -lopenblas
 
 all: dscal dgemm dgesv clean
 
